@@ -28,7 +28,7 @@ public class MainFrame extends JFrame {
         viewPanel.removeAll();
         viewPanel.add(panel, BorderLayout.CENTER);
 //        viewPanel.setVisible(true);
-        viewPanel.invalidate();
+        viewPanel.revalidate();
         viewPanel.repaint();
     }
 }
